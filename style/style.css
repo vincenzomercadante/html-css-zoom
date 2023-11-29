@@ -18,10 +18,13 @@ body{
     overflow: hidden;
 }
 
+img{
+    width: 100%;
+}
 
 /* ! HEADER */
 .header{
-    padding: 5px;
+    padding: 7px;
     text-align: right;
     min-height: 50px;
     background-color: black;
@@ -29,10 +32,41 @@ body{
 
 .button{
     padding: 5px;
-    border-radius: 5px;
+    margin-left: 5px;
+    border-radius: 7px;
     font-size: 0.8rem;
     background-color: #4d4d4d;
     color: white;
 }
 
+/* ! MAIN */
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    background-color: black;
+    height: calc(100vh - 50px - 100px);
+}
+
+.main > .container{
+    margin: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.webcam{
+    position: relative;
+}
+
+.webcam .user{
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+    position: absolute;
+}
