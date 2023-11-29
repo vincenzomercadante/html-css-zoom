@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ! Generics */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+
+/* ! HEADER */
+.header{
+    padding: 5px;
+    text-align: right;
+    min-height: 50px;
+    background-color: black;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+
